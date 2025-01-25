@@ -101,9 +101,9 @@ For questions, suggestions, or feedback, feel free to contact me:
 
 По вопросам, предложениям или отзывам, свяжитесь со мной:
 
-- **Email**: your-email@example.com
+- **Email**: horhe-dvlp@yandex.ru
   
-  **Электронная почта**: your-email@example.com
+- **Электронная почта**: horhe-dvlp@yandex.ru
 - **GitHub**: [horhe-dvlp](https://github.com/horhe-dvlp)
   
 
