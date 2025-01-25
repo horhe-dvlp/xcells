@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "xcells"
+version = "0.1.0"
+description = "A simple, yet powerful library for working with Excel files in Python."
+authors = ["horhe-dvlp <horhe-dvlp@yandex.ru>"]
+packages = [{include = "xcells"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+lxml = "^5.3.0"
+
