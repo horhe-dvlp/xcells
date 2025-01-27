@@ -1,5 +1,5 @@
 from .worksheet import Worksheet
-from .cell import Cell
+from .cell import StringCell
 from typing import List, Optional
 
 class Workbook:
@@ -26,4 +26,5 @@ class Workbook:
         """Fill cell values"""
         for row in worksheet.cells:
             for cell in row:
-                cell.value = self._shared_strings[cell.value_id]
+                if isinstance(cell, StringCell):
+                    cell.value = self._shared_strings[cell.value_id]
